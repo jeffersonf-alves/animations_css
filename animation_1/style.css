@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 80%;
+    height: 800px;
+    border-style: solid;
+    margin: auto;
+    
+}
+@keyframes change {
+    0% { height: 500px; left: 80px; }
+    25% { height: 400; left: 100px; }
+    50% { height: 500px; left: 85px;}
+    100% { height: 400px; left: 100px;}
+}
+
+.container > .mar-1 {
+    position: relative;
+    background-color: #5882FA;
+    width: 700px;
+    height: 450px;
+    border-radius: 150px 150px 0px 0px;
+    border-top: 2px solid black;
+    left: 100px;
+}
+.container > .mar-2 {
+    position: relative;
+    background-color: #5882FA;
+    width: 700px;
+    height: 450px;
+    border-radius: 150px 150px 0px 0px;
+    border-top: 2px solid black;
+    left: 50px;
+    animation-name: change;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+}
+.container > .mar-3 {
+    position: relative;
+    background-color: #5882FA;
+    width: 700px;
+    height: 450px;
+    border-radius: 150px 150px 0px 0px;
+    border-top: 2px solid black;
+    
+}
